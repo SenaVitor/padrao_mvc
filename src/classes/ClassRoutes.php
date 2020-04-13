@@ -17,7 +17,8 @@ class ClassRoutes{
         $this->Rota=array(
             ""=>"ControllerHome",
             "home"=>"ControllerHome",
-            "sitemap"=>"ControllerSitemap"
+            "sitemap"=>"ControllerSitemap",
+            "carro"=>"ControllerCarros"
         );
         
         if(array_key_exists($i,$this->Rota)){
@@ -27,7 +28,7 @@ class ClassRoutes{
                 return "ControllerHome";
             }
         }else{
-            return "ControllerHome1";
+            return "Controller404";
         }
     }
 }
