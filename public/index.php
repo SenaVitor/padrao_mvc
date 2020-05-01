@@ -11,4 +11,6 @@ require_once("../src/vendor/autoload.php");
 // }
 // $t = new Teste();
 $Dispatch = new App\Dispatch();
+// $n = new Src\Classes\ClassBreadcrumb();
+// $n->addBreadcrumb();
 ?>
